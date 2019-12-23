@@ -1,0 +1,44 @@
+.tab {
+  margin: 0;
+  overflow: hidden;
+  border: none;
+  background-color: #f1f1f1;
+}
+
+button {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  border: none;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: green;
+}
+
+.buttonHighlighter1 {
+  background-color: red;
+}
+.buttonHighlighter2 {
+  background-color: red;
+}
+.beforeClick {
+  display: none;
+}
+
+.afterClick {
+  text-align: center;
+  border: 1px solid gainsboro;
+}
+
+.afterClick span {
+  position: absolute;
+  right: 10%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+div #removeContent {
+  display: none;
+}
